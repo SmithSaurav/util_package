@@ -7,7 +7,7 @@ with open(os.path.join(os.path.dirname(__file__), "README.md")) as readme:
     README = readme.read()
 
 setuptools.setup(
-    name="Util_Python_package",
+    name="util_package",
     version="0.0.1",
     author="smith",
     author_email="smith@bdb.ai",
