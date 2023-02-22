@@ -18,7 +18,7 @@ $ pip install util-bdb
 Open a Python console, import the module Utils, create an instance of it and call its method get_json_value() or get_system_usage(). 😉
 
 ```
->> from util-bdb import Utils_BDB
+>> from utilbdb import Utils_BDB
 >>
 >> util_obj = Utils_BDB()
 >> util_obj.get_json_value()

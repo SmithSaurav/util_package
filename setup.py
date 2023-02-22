@@ -12,6 +12,7 @@ setuptools.setup(
     author="smith",
     author_email="smith@bdb.ai",
     description="A Util python package",
+    packages=["utilbdb"],
     long_description="Util Python package to use for various purposes",
     long_description_content_type="text/markdown",
     url="https://github.com/SmithSaurav/util_package",
