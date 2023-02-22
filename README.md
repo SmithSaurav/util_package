@@ -10,7 +10,7 @@ The **Util Python Package** is a python package that contains Some useful Functi
 ###  Install
 
 ```
-$ pip install util-bdb  
+$ pip install utilbdb  
 ```
 
 ### Usage

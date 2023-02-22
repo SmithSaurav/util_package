@@ -18,7 +18,7 @@ setuptools.setup(
     url="https://github.com/SmithSaurav/util_package",
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: No License",
+        "License :: BDB License",
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
