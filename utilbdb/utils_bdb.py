@@ -16,7 +16,7 @@ class Utils_BDB:
             if json_data != None and key in json_data:
                 value = json_data[key]
         except Exception as e:
-            raise Exception(Utils.__name__ + "value error", e)
+            raise Exception(Utils_BDB.__name__ + "value error", e)
         finally:
             pass
         return value
@@ -26,7 +26,7 @@ class Utils_BDB:
             if json_data != None and key in json_data:
                 return True
         except Exception as e:
-            raise Exception(Utils.__name__ + "dict not have key", e)
+            raise Exception(Utils_BDB.__name__ + "dict not have key", e)
         finally:
             pass
         return False
@@ -100,7 +100,7 @@ class Utils_BDB:
 
 
 if __name__ == '__main__':
-    utils = Utils()
+    utils = Utils_BDB()
     print(utils.get_system_usage())
     print(psutil.cpu_times().idle)
     pass
